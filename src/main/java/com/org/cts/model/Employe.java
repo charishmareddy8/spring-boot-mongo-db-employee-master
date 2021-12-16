@@ -13,6 +13,7 @@ public class Employe implements Serializable {
     private String name;
     private String address;
     private Float salary;
+    private Integer age;
 
     public Integer getId() {
         return Id;
@@ -44,5 +45,13 @@ public class Employe implements Serializable {
 
     public void setSalary(Float salary) {
         this.salary = salary;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
     }
 }
